@@ -230,6 +230,7 @@
 @media (max-width: 40em) {
   .container {
     margin-left: 10%;
+    padding-right: 10%;
   }
 
   .secondary-heading {
@@ -270,7 +271,6 @@
   }
 
   .work-imgarea img {
-    box-shadow: 0 10px 48px 0 rgba(254, 212, 58, 0.2);
   }
 
   .skills {
@@ -320,7 +320,36 @@
 }
 
 @media (max-width: 29em) {
+  .container {
+    margin-left: 5%;
+    padding-right: 5%;
+  }
+
+  .work-imgarea {
+    margin-left: 10%;
+  }
+
+  .about-container,
+  .skills,
+  .methods,
+  .contact-container {
+    margin-left: 10%;
+  }
+
+  .method {
+    width: 80%;
+  }
+
+  .contact-container {
+    max-width: 80%;
+  }
+
   h2::before {
     left: 30%;
+  }
+
+  #contact .secondary-heading,
+  #methodology .secondary-heading {
+    font-size: 3rem;
   }
 }

@@ -541,3 +541,41 @@ h2::before {
   background: #6c48c2;
   z-index: -1;
 }
+
+.work-imgarea {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-imgarea::before,
+.work-imgarea::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work-imgarea::before {
+  width: 100%;
+  /* height: 60%; */
+
+  /* 60% of parent's width */
+  padding-bottom: 100%;
+
+  background-color: #ffd94e;
+
+  z-index: -1;
+}
+
+.work-imgarea::after {
+  width: 85%;
+  padding-bottom: 85%;
+  background-color: #6c48c2;
+  z-index: -1;
+}
