@@ -568,7 +568,7 @@ h2::before {
   /* 60% of parent's width */
   padding-bottom: 100%;
 
-  background-color: #ffd94e;
+  background-color: #e8ddff;
 
   z-index: -1;
 }
@@ -576,6 +576,6 @@ h2::before {
 .work-imgarea::after {
   width: 85%;
   padding-bottom: 85%;
-  background-color: #6c48c2;
+  background-color: #977cd6;
   z-index: -1;
 }
