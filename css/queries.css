@@ -317,9 +317,13 @@
   .left-section .btn-div {
     text-align: center;
   }
-}
 
-@media (max-width: 29em) {
+  #contact .secondary-heading,
+  #methodology .secondary-heading,
+  .contact-container .small-heading {
+    font-size: 3rem;
+  }
+
   .container {
     margin-left: 5%;
     padding-right: 5%;
@@ -343,7 +347,9 @@
   .contact-container {
     max-width: 80%;
   }
+}
 
+@media (max-width: 29em) {
   h2::before {
     left: 30%;
   }
