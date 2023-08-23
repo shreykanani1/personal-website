@@ -347,6 +347,31 @@
   .contact-container {
     max-width: 80%;
   }
+
+  .about-container {
+    padding: 1.8rem 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  .hollow-heading {
+    letter-spacing: -0.1rem;
+  }
+
+  .method-subheading {
+    font-size: 1.4rem;
+  }
+
+  .method-heading {
+    font-size: 3rem;
+  }
+
+  .method-desc {
+    font-size: 1.4rem;
+  }
+
+  .about-container img {
+    width: 15rem;
+  }
 }
 
 @media (max-width: 29em) {
@@ -356,6 +381,6 @@
 
   #contact .secondary-heading,
   #methodology .secondary-heading {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
 }
