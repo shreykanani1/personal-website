@@ -1,0 +1,326 @@
+@media (max-width: 89em) {
+  .hollow-heading {
+    font-size: 5.2rem;
+  }
+
+  .fill-heading {
+    font-size: 7.4rem;
+  }
+
+  .hero-description,
+  .btn,
+  /* .nav-bar ul, */
+  .work-description,
+  .about-description,
+  .skill-desc {
+    font-size: 2rem;
+  }
+
+  .nav-bar {
+    /* max-width: 6%; */
+  }
+
+  .container {
+    margin-left: 8%;
+  }
+
+  .num-section {
+    font-size: 3.6rem;
+  }
+
+  .work-name {
+    font-size: 3.6rem;
+  }
+
+  .work-title {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 82em) {
+  .secondary-heading {
+    font-size: 4.4rem;
+  }
+  .hollow-heading {
+    font-size: 4.4rem;
+  }
+
+  .fill-heading {
+    font-size: 6.2rem;
+  }
+
+  .hero-description,
+  .btn,
+  /* .nav-bar ul, */
+  .work-description,
+  .about-description,
+  .skill-desc {
+    font-size: 1.8rem;
+  }
+
+  .nav-bar {
+    /* max-width: 5%; */
+  }
+
+  .container {
+    margin-left: 9%;
+  }
+
+  .work-section {
+    column-gap: 7rem;
+  }
+
+  .num-section {
+    font-size: 3rem;
+  }
+
+  .work-name {
+    font-size: 3rem;
+  }
+
+  .work-title {
+    font-size: 2rem;
+  }
+
+  h2::before {
+    left: 7%;
+  }
+}
+
+@media (max-width: 70em) {
+  /* .hollow-heading {
+    font-size: 3.6rem;
+  }
+
+  .fill-heading {
+    font-size: 5.2rem;
+  }
+
+  .hero-description,
+  .btn,
+  .nav-bar ul {
+    font-size: 1.6rem;
+  }
+
+  .nav-bar {
+    max-width: 4%;
+  }
+*/
+  .container {
+    margin-left: 10%;
+  }
+
+  .hero-description {
+    max-width: 85%;
+  }
+
+  h2::before {
+    left: 10%;
+  }
+}
+
+@media (max-width: 56em) {
+  .hollow-heading {
+    font-size: 3.6rem;
+  }
+
+  .fill-heading {
+    font-size: 5.2rem;
+  }
+
+  .hero-description,
+  .btn,
+  /* .nav-bar ul, */
+  .work-description,
+  .about-description,
+  .skill-desc {
+    font-size: 1.6rem;
+  }
+
+  .nav-bar {
+    /* max-width: 3%; */
+  }
+  .container {
+    margin-left: 9%;
+  }
+  .hero-description {
+    max-width: 85%;
+  }
+  /* 
+  .num-section {
+    font-size: 2.4rem;
+  }
+
+  .work-name {
+    font-size: 2.4rem;
+  }
+
+  .work-title {
+    font-size: 1.8rem;
+  } */
+
+  h2::before {
+    left: 10%;
+  }
+}
+
+@media (max-width: 46em) {
+  .hollow-heading {
+    font-size: 3rem;
+  }
+
+  .fill-heading {
+    font-size: 4.4rem;
+  }
+
+  .hero-description,
+  .btn,
+  /* .nav-bar ul, */
+  .work-description,
+  .about-description,
+  .skill-desc {
+    font-size: 1.6rem;
+  }
+  .nav-bar ul {
+    font-size: 1.8rem;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 2.4rem 4.8rem;
+    overflow: scroll;
+  }
+
+  .nav-bar {
+    /* max-width: 3%; */
+  }
+  .container {
+    margin-left: 7%;
+  }
+
+  .skills {
+    gap: 2.4rem;
+  }
+
+  .hero-description {
+    max-width: 100%;
+  }
+
+  .work-section {
+    gap: 4.8rem;
+  }
+
+  /* .num-section {
+    font-size: 2rem;
+  }
+
+  .work-name {
+    font-size: 2rem;
+  }
+
+  .work-title {
+    font-size: 1.6rem;
+  } */
+
+  h2::before {
+    left: 15%;
+  }
+}
+
+@media (max-width: 40em) {
+  .container {
+    margin-left: 10%;
+  }
+
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .about-container {
+    padding: 1.8rem 3.6rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+  }
+
+  .bg-container {
+    display: block;
+    background-color: black;
+  }
+
+  .bg-right {
+    display: none;
+  }
+
+  .hero-section {
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+  }
+  .left-section {
+    padding-bottom: 3.6rem;
+  }
+  .work-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .work-textarea {
+  }
+
+  .work-imgarea img {
+    box-shadow: 0 10px 48px 0 rgba(254, 212, 58, 0.2);
+  }
+
+  .skills {
+    display: grid;
+    /* flex-direction: column; */
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  .skill {
+    gap: 1.2rem;
+  }
+
+  .skill.txt-black {
+    color: white;
+  }
+
+  .methods {
+    display: flex;
+    gap: 2.4rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-container {
+    padding: 3.6rem 3.6rem;
+  }
+  .contact-container form div {
+    grid-template-columns: 1fr;
+  }
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    height: 2.4rem;
+  }
+  h2::before {
+    left: 20%;
+  }
+
+  .about-container {
+    max-width: 80%;
+  }
+
+  .left-section .btn-div {
+    text-align: center;
+  }
+}
+
+@media (max-width: 29em) {
+  h2::before {
+    left: 30%;
+  }
+}
