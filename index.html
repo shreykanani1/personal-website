@@ -91,7 +91,8 @@
             <div class="work-name">Darshan Steel Infrastructure</div>
             <div class="work-title">PEB Manufacturer</div>
             <div class="work-description">
-              Led the design process and developed a website for a PEB manufacturing factory.
+              Led the design process and developed a website for a PEB
+              manufacturing factory.
             </div>
             <div class="role-text">
               <strong>Role :</strong> Web-Design, Development & SEO.
@@ -284,14 +285,20 @@
     <div class="container">
       <div class="contact-container">
         <h3 class="small-heading">Lets Chat</h3>
-        <form action="" netlify method="post">
+
+        <form
+          action=""
+          netlify
+          method="post"
+          onsubmit="return validateMobileNumber()"
+        >
           <div>
             <label for="cname">Name</label>
-            <input type="text" name="cname" id="cname" />
+            <input type="text" name="cname" id="cname" required />
           </div>
           <div>
             <label for="phonenumber">Phone Number</label>
-            <input type="number" name="phonenumber" id="phonenumber" />
+            <input type="number" name="phonenumber" id="phonenumber" required />
           </div>
 
           <div>
@@ -318,6 +325,23 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script>
+      function validateMobileNumber() {
+        const mobileNumber = document.getElementById("phonenumber").value;
+        const mobileNumberRegex = /^(\+91[\-\s]?)?[0]?(91)?[6789]\d{9}$/;
+
+        if (mobileNumberRegex.test(mobileNumber)) {
+          // alert("Valid Indian mobile number!");
+          return true;
+        } else {
+          alert(
+            "Invalid mobile number. Please enter a valid Indian mobile number."
+          );
+          return false;
+        }
+      }
+    </script>
 
     <!-- <link id="jos-stylesheet" rel="stylesheet" href="/dist/jos.css" />
     <script src="/librarys/dist/jos.min.js"></script> -->
